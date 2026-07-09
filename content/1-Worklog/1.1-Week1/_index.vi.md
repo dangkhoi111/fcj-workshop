@@ -35,8 +35,6 @@ pre: " <b> 1.1. </b> "
 
 * Hoàn thành việc đăng ký tài khoản AWS Free Tier và truy cập thành công AWS Management Console.
 
-<br>
-
 ![AWS Console](/images/1-Worklog/aws-account.png)
 
 * Cài đặt và cấu hình AWS CLI thành công trên máy tính.
@@ -53,16 +51,12 @@ pre: " <b> 1.1. </b> "
   * Kết nối đến máy chủ
   * Dừng và xóa Instance sau khi hoàn thành thực hành
 
-<br>
 
-![EC2 Instance](ec2-instance.png)
 
 * Hiểu được cách quản lý tài nguyên thông qua AWS Management Console và AWS CLI.
 
-<br>
 
 ![EC2 Dashboard](/images/1-Worklog/ec2-dashboard.png)
-
 * Có thể sử dụng kết hợp giao diện web và dòng lệnh để thực hiện các thao tác quản lý tài nguyên AWS cơ bản, tạo nền tảng cho các nội dung thực hành ở những tuần tiếp theo.
 
 

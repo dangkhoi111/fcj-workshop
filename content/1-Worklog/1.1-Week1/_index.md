@@ -1,10 +1,11 @@
 ---
-title: " Week 1 Worklog"
+title: "Week 1 Worklog"
 date: 17-04-2026
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
+
 ### Week 1 Objectives:
 
 * Become familiar with the First Cloud Journey program and its learning environment.
@@ -34,9 +35,7 @@ pre: " <b> 1.1. </b> "
 
 * Successfully created an AWS Free Tier account and accessed the AWS Management Console.
 
-<br>
-
-![AWS Console](aws-account.png)
+![AWS Console](/images/1-Worklog/aws-account.png)
 
 * Installed and configured AWS CLI successfully on the local computer.
 
@@ -52,14 +51,8 @@ pre: " <b> 1.1. </b> "
   * Connecting to the instance
   * Stopping and terminating the instance after completing the practice session
 
-<br>
-
-![EC2 Instance](ec2-instance.png)
-
 * Learned how to manage AWS resources using both the AWS Management Console and AWS CLI.
 
-<br>
-
-![EC2 Dashboard](ec2-dashboard.png)
+![EC2 Dashboard](/images/1-Worklog/ec2-dashboard.png)
 
 * Acquired the ability to use both the web interface and command-line tools to perform basic AWS resource management tasks, providing a solid foundation for future hands-on AWS labs.

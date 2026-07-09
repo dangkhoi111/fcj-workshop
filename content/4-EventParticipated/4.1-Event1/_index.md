@@ -108,8 +108,7 @@ pre: " <b> 4.1. </b> "
 ---
 
 #### Event Photos
-
-<img src="/fcj-workshop/images/event_1.jpg" width="700">
+![Your event photo](/images/event_1.jpg)
 
 > **Summary:** This event helped me gain a deeper understanding of effective Prompt Engineering techniques while expanding my knowledge of integrating AI with AWS in software development. The knowledge gained will help me apply AI more effectively in both my studies and real-world software projects.
 ```
