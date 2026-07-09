@@ -37,7 +37,7 @@ pre: " <b> 1.1. </b> "
 
 <br>
 
-![AWS Console](aws-account.png)
+![AWS Console](/images/1-Worklog/aws-account.png)
 
 * Cài đặt và cấu hình AWS CLI thành công trên máy tính.
 
@@ -61,7 +61,7 @@ pre: " <b> 1.1. </b> "
 
 <br>
 
-![EC2 Dashboard](ec2-dashboard.png)
+![EC2 Dashboard](/images/1-Worklog/ec2-dashboard.png)
 
 * Có thể sử dụng kết hợp giao diện web và dòng lệnh để thực hiện các thao tác quản lý tài nguyên AWS cơ bản, tạo nền tảng cho các nội dung thực hành ở những tuần tiếp theo.
 
