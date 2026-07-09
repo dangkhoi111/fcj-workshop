@@ -111,6 +111,6 @@ pre: " <b> 4.1. </b> "
 
 #### Một số hình ảnh khi tham gia sự kiện
 
-<img src="/images/event_1.jpg" width="700">
+<img src="/fcj-workshop/images/event_1.jpg" width="700">
 
 > **Tổng kết:** Sự kiện giúp tôi hiểu rõ hơn về cách xây dựng Prompt hiệu quả, đồng thời mở rộng kiến thức về việc kết hợp AI với AWS trong phát triển phần mềm. Những kiến thức này sẽ hỗ trợ tôi áp dụng AI tốt hơn trong học tập cũng như các dự án thực tế.

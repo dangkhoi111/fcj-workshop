@@ -1,6 +1,7 @@
 baseURL = "https://dangkhoi111.github.io/fcj-workshop/"
+# Ensure images and other assets resolve correctly when the site is hosted under a GitHub Pages subpath.
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
