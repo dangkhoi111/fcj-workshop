@@ -7,7 +7,7 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Thiện Nhân 
+&emsp; **Họ và tên:** Trần Nguyễn Đăng Khôi
 
 &emsp; **Số điện thoại:** 0349916217
 
