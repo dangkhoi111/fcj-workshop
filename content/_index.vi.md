@@ -9,9 +9,9 @@ chapter: false
 ### Thông tin sinh viên:
 &emsp; **Họ và tên:** Trần Nguyễn Đăng Khôi
 
-&emsp; **Số điện thoại:** 0349916217
+&emsp; **Số điện thoại:** 0388107949
 
-&emsp; **Email:** nguyennhan18082019@gmail.com
+&emsp; **Email:** dangkhoi0980@gmail.com
 
 &emsp; **Trường:** Đại học Công Nghệ TP.HCM
 
