@@ -1,57 +1,44 @@
 ---
 title: "Week 10 Worklog"
 date: 2024-01-01
-weight: 2
+weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
+
 
 
 ### Week 10 Objectives:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+* Plan the deployment architecture of the Sports Field Booking System on AWS.
+* Finalize the database design and cloud infrastructure architecture.
+* Select AWS services that provide scalability, security, and high availability.
 
 ### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Day | Task | Start Date | Completion Date | Reference Material |
+| --- | --- | --- | --- | --- |
+| 2 | - Prepare the AWS deployment strategy for the project.<br>- Define the main system components and application workflow. | 19/06/2026 | 19/06/2026 | |
+| 3 | - Review and refine the Use Case Diagram.<br>- Analyze data flow between different modules of the system. | 20/06/2026 | 20/06/2026 | |
+| 4 | - Finalize the database design.<br>- Define tables, primary keys, foreign keys, and relationships between entities. | 21/06/2026 | 21/06/2026 | |
+| 5 | - Evaluate AWS services suitable for the project.<br>- Study Amazon EC2, Amazon RDS, Amazon S3, and Amazon CloudFront for system deployment. | 22/06/2026 | 22/06/2026 | |
+| 6 | - Design the AWS architecture diagram using Draw.io.<br>- Illustrate the interaction between AWS services and the application's data flow. | 23/06/2026 | 23/06/2026 | https://www.youtube.com/watch?v=l8isyDe-GwY |
+| 7 | - Design the network architecture using Amazon VPC, Public Subnets, and Private Subnets.<br>- Review and optimize the deployment architecture before the implementation phase. | 24/06/2026 | 25/06/2026 | https://www.youtube.com/watch?v=l8isyDe-GwY |
 
 ### Week 10 Achievements:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Completed the AWS deployment plan for the Sports Field Booking System.
 
-* Successfully created and configured an AWS Free Tier account.
+* Finalized the database structure to support all required application features.
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Successfully designed the cloud architecture, including:
+  * Amazon VPC.
+  * Public and Private Subnets.
+  * Amazon EC2 for the backend application.
+  * Amazon RDS for the database.
+  * Amazon S3 for image storage.
+  * Amazon CloudFront for content delivery.
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Created a complete AWS Architecture Diagram in Draw.io showing the interaction between cloud services.
 
-* Used AWS CLI to perform basic operations such as:
-
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
-
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Evaluated the architecture in terms of scalability, security, and reliability before moving to the development stage.

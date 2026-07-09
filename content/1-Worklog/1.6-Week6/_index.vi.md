@@ -1,58 +1,54 @@
 ---
 title: "Worklog Tuần 6"
 date: 2024-01-01
-weight: 1
+weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
-
 
 ### Mục tiêu tuần 6:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Tìm hiểu các tính năng và dịch vụ liên quan đến Amazon EC2.
+* Nắm được các giải pháp lưu trữ và mở rộng tài nguyên trên AWS.
+* Thực hành sao lưu và khôi phục dữ liệu bằng AWS Backup.
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
 
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --- | --- | --- | --- |
+| 2 | - Nghiên cứu Amazon EC2 và các nhóm Instance phù hợp với từng nhu cầu sử dụng.<br>- Tìm hiểu mô hình thanh toán On-Demand, Reserved và Spot Instances.<br>- Tìm hiểu vòng đời của EC2 Instance. | 22/05/2026 | 22/05/2026 | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 3 | - Tìm hiểu Amazon Machine Image (AMI).<br>- Thực hành tạo và sử dụng Key Pair để xác thực SSH.<br>- Nghiên cứu quy trình tạo EC2 từ AMI có sẵn. | 23/05/2026 | 23/05/2026 | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 4 | - Tìm hiểu các loại Amazon EBS Volume và Snapshot.<br>- So sánh ưu điểm giữa EBS và Instance Store trong các trường hợp sử dụng khác nhau. | 24/05/2026 | 24/05/2026 | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 5 | - Nghiên cứu EC2 User Data để tự động hóa cấu hình máy chủ khi khởi động.<br>- Thực hành sử dụng script khởi tạo dịch vụ trên EC2. | 25/05/2026 | 25/05/2026 | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 6 | - Tìm hiểu Auto Scaling Group và Launch Template.<br>- Nghiên cứu Amazon EFS và Amazon FSx phục vụ lưu trữ dữ liệu chia sẻ. | 26/05/2026 | 26/05/2026 | https://www.youtube.com/playlist?list=PLahN4TLWtox2a3vElknwzU_urND8hLn1i |
+| 7 | - Thực hành tạo AWS Backup Plan.<br>- Sao lưu và khôi phục dữ liệu bằng Snapshot.<br>- Hoàn thành các bài Lab liên quan đến Amazon EC2 và AWS Backup. | 27/05/2026 | 28/05/2026 | https://000013.awsstudygroup.com/ <br> https://000004.awsstudygroup.com/ |
 
 ### Kết quả đạt được tuần 6:
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Hiểu được cách lựa chọn Amazon EC2 Instance phù hợp với từng nhu cầu triển khai ứng dụng.
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Nắm được các hình thức triển khai và quản lý EC2:
+  * Instance Types.
+  * Pricing Options.
+  * Amazon Machine Image (AMI).
+  * Key Pair.
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Hiểu rõ các dịch vụ lưu trữ dành cho EC2:
+  * Amazon EBS.
+  * EBS Snapshot.
+  * Instance Store.
+  * Amazon EFS.
+  * Amazon FSx.
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Làm quen với các giải pháp tự động hóa và mở rộng hệ thống:
+  * EC2 User Data.
+  * Auto Scaling Group.
+  * Launch Template.
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Hoàn thành bài thực hành AWS Backup:
+  * Tạo Backup Plan.
+  * Thiết lập lịch sao lưu tự động.
+  * Khôi phục dữ liệu từ Snapshot.
+  * Hoàn thành các bài Lab về EC2 và Backup.
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Có khả năng triển khai, quản lý và bảo vệ dữ liệu của EC2 bằng các dịch vụ lưu trữ và sao lưu trên AWS.
