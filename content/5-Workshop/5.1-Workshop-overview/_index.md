@@ -57,4 +57,4 @@ The core backend APIs were successfully tested against the cloud environment usi
 2. **Business Functionality (`GET /api/venues`)**
    * Successfully retrieves the list of sports venues (for example, *Bach Khoa Sports Complex - Premium Football Field*) from the Amazon RDS database and returns the data in JSON format.
 
-![overview](/images/test_api.jpg)
+![overview](/images/5-Workshop/5.1-Workshop-overview/diagram1.png)

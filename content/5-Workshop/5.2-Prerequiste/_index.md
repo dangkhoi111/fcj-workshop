@@ -113,6 +113,6 @@ The resources inspected include:
 
 This verification process confirms that all AWS resources have been provisioned according to the designed architecture and that the deployment environment is ready for deploying the SportBooking application to AWS Cloud.
 
-![cloud](/images/ECS.jpg)
-![cloud](/images/EC2.jpg)
-![cloud](/images/ECR.jpg)
+![cloud](/images/cloud/ECS/Clusters.jpg)
+![cloud](/images/cloud/EC2/EC2.jpg)
+![cloud](/images/cloud/ECR/ECR.jpg)

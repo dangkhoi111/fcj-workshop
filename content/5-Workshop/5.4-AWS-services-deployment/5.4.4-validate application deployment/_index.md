@@ -48,7 +48,7 @@ In this section, I verify the SportBooking application after the deployment proc
 
 ![Redis](/images/cloud/Redis/Redis.jpg)
 
-![Amazon ElastiCache](/images/cloud/Redis/ElastiCache.jpg)
+![Amazon ElastiCache](/images/cloud/ElastiCache/ElastiCache.jpg)
 
 ---
 
@@ -65,7 +65,7 @@ The verification included:
 
 ![AWS CLI](/images/aws_cli.jpg)
 
-![AWS CLI - Get Caller Identity](/images/aws_cli_get_caller_identity.jpg)
+![AWS CLI - Get Caller Identity](/images/aws_cli_sts_get_caller_identity.jpg)
 
 ---
 
